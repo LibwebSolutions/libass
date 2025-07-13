@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>LibWeb Solutions - Home</title>
+  
+  <meta name="description" content="LibWeb Solutions - Professional web development services to empower your business. Also known as Libwebsolutions, offering custom websites, e-commerce, and affiliate marketing solutions." />
+  <meta name="keywords" content="LibWeb Solutions, Libwebsolutions, web development, e-commerce, affiliate marketing, custom websites, digital solutions" />
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+  <!-- Animate.css for animations -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+
+  <style>
+    body {
+      background-color: #2e2e2e; /* deep grey */
+      color: #f5f5f0; /* milkish white */
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .navbar, .footer {
+      background-color: #1f1f1f;
+    }
+    .navbar-brand img {
+      height: 40px;
+      margin-right: 10px;
+    }
+    .btn-cta {
+      background-color: gold;
+      color: #2e2e2e;
+      font-weight: 600;
+      transition: background-color 0.3s ease;
+    }
+    .btn-cta:hover {
+      background-color: #e0e0d1;
+      color: #1f1f1f;
+    }
+    .card {
+      background-color: #3a3a3a;
+      border: none;
+    }
+    .card-title, .card-text {
+      color: #f5f5f0;
+    }
+    .review-star {
+      color: #ffc107; /* gold stars */
+    }
+    a {
+      color: #f5f5f0;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+      color: #e0e0d1;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark px-4">
+    <a class="navbar-brand d-flex align-items-center" href="#">
+      <img src="logo.png" alt="Logo" />
+      <span class="fs-4 fw-bold">LibWeb Solutions</span>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu"
+      aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navMenu">
+      <ul class="navbar-nav ms-auto gap-3">
+        <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+        <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+        <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+        <li class="nav-item"><a class="nav-link" href="packages.html">Packages</a></li>
+        <li class="nav-item"><a class="nav-link" href="reviews.html">Reviews</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="text-center py-5 animate__animated animate__fadeIn">
+    <div class="container">
+      <h1 class="display-4 fw-bold mb-3">Empowering Your Digital Presence</h1>
+      <p class="lead mb-4">Professional web development solutions tailored for your business growth.</p>
+      <a href="contact.html" class="btn btn-cta btn-lg">Get Started</a>
+    </div>
+  </section>
+
+  <!-- About Us teaser -->
+  <section class="py-5 border-top border-secondary animate__animated animate__fadeIn animate__delay-1s">
+    <div class="container text-center">
+      <h2 class="mb-3">About LibWeb Solutions</h2>
+      <p class="lead mx-auto" style="max-width:700px;">
+        At LibWeb Solutions, we deliver cutting-edge web development services designed to elevate your
+        brand and grow your online business.
+      </p>
+      <a href="about.html">Learn More &raquo;</a>
+    </div>
+  </section>
+
+  <!-- Services teaser -->
+  <section class="py-5 animate__animated animate__fadeIn animate__delay-2s">
+    <div class="container">
+      <h2 class="text-center mb-4">Our Services</h2>
+      <div class="row justify-content-center">
+        <div class="col-md-4 mb-3">
+          <div class="card p-3 h-100">
+            <h5 class="card-title">Custom Web Development</h5>
+            <p class="card-text">Tailored websites that fit your unique business needs perfectly.</p>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="card p-3 h-100">
+            <h5 class="card-title">E-Commerce Solutions</h5>
+            <p class="card-text">Robust online stores with secure payment integration and smooth UX.</p>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="card p-3 h-100">
+            <h5 class="card-title">Affiliate Marketing Websites</h5>
+            <p class="card-text">Designed to maximize your affiliate earnings with optimized layouts.</p>
+          </div>
+        </div>
+      </div>
+      <div class="text-center mt-3">
+        <a href="services.html">Explore All Services &raquo;</a>
+      </div>
+    </div>
+  </section>
+  <!-- Reviews teaser -->
+  <section class="py-5 border-top border-secondary animate__animated animate__fadeIn animate__delay-4s">
+    <div class="container">
+      <h2 class="text-center mb-4">What Our Clients Say</h2>
+      <div class="row justify-content-center">
+        <!-- Review 1 -->
+        <div class="col-md-4 mb-3">
+          <div class="card p-4 h-100">
+            <p class="mb-1">
+              “LibWeb Solutions delivered my website quickly and professionally. Highly recommended!”
+            </p>
+            <div class="review-star">
+              ★★★★☆
+            </div>
+            <small class="text-muted">— Sarah K.</small>
+          </div>
+        </div>
+        <!-- Review 2 -->
+        <div class="col-md-4 mb-3">
+          <div class="card p-4 h-100">
+            <p class="mb-1">
+              “Great communication and excellent support throughout the project.”
+            </p>
+            <div class="review-star">
+              ★★★★★
+            </div>
+            <small class="text-muted">— Michael B.</small>
+          </div>
+        </div>
+        <!-- Review 3 -->
+        <div class="col-md-4 mb-3">
+          <div class="card p-4 h-100">
+            <p class="mb-1">
+              “Professional, affordable, and very easy to work with. I’ll be back for more.”
+            </p>
+            <div class="review-star">
+              ★★★★★
+            </div>
+            <small class="text-muted">— Amina T.</small>
+          </div>
+        </div>
+      </div>
+      <div class="text-center mt-3">
+        <a href="reviews.html">Read More Reviews &raquo;</a>
+      </div>
+    </div>
+  </section>
+
+   <!-- Footer -->
+  <footer class="footer text-center text-muted py-3 mt-5">
+    <div class="container">
+      &copy; 2025 LibWeb Solutions &nbsp;|&nbsp;
+      <a href="privacy.html">Privacy Policy</a> &nbsp;|&nbsp;
+      <a href="terms.html">Terms of Service</a> &nbsp;|&nbsp;
+      <a href="https://www.tiktok.com/@libweb_solutions" target="_blank">TikTok</a> &nbsp;|&nbsp;
+      <a href="https://www.instagram.com/libweb_solutions/" target="_blank">Instagram</a>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
