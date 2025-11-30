@@ -11,8 +11,8 @@
   <style>
     /* Theme Colors */
     body {
-      background-color: #333333; /* Deep grey background */
-      color: #f9f9f7;            /* Milky white text */
+      background-color: #333333;
+      color: #f9f9f7;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
     h1, h2, h3, h4, h5 {
@@ -26,29 +26,15 @@
       color: #cccccc;
       text-decoration: underline;
     }
-    /* Navbar custom */
-     .navbar, .footer {
+
+    .navbar, .footer {
       background-color: #1f1f1f;
     }
     .navbar-brand img {
       height: 40px;
       margin-right: 10px;
     }
-    a {
-      color: #f5f5f0;
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
-      color: #e0e0d1;
-    }
-    .section-title {
-      border-bottom: 2px solid #f5f5f0;
-      padding-bottom: 0.3rem;
-      margin-bottom: 1.5rem;
-      font-weight: 700;
-    }
-    /* Smooth fade-in animation for sections */
+
     .fade-in {
       opacity: 0;
       transform: translateY(20px);
@@ -60,7 +46,7 @@
         transform: translateY(0);
       }
     }
-    /* Project card */
+
     .project-card {
       background-color: #222222;
       border-radius: 0.5rem;
@@ -77,31 +63,22 @@
       height: 180px;
       width: 100%;
     }
-    .card-body {
-      color: #f9f9f7;
-    }
-    /* Footer */
+
     footer {
       background-color: #222222;
       color: #aaa;
     }
   </style>
 </head>
+
+<body>
   <!-- Navbar -->
   <nav class="navbar navbar-expand-lg navbar-dark px-4">
     <a class="navbar-brand d-flex align-items-center" href="index.html">
       <img src="logo.png" alt="Logo" />
       <span class="fs-4 fw-bold">LibWeb Solutions</span>
     </a>
-    <button
-      class="navbar-toggler"
-      type="button"
-      data-bs-toggle="collapse"
-      data-bs-target="#navMenu"
-      aria-controls="navMenu"
-      aria-expanded="false"
-      aria-label="Toggle navigation"
-    >
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
       <span class="navbar-toggler-icon"></span>
     </button>
 
@@ -109,7 +86,7 @@
       <ul class="navbar-nav ms-auto gap-3">
         <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
         <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
-        <li class="nav-item"><a class="nav-link " href="services.html">Services</a></li>
+        <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
         <li class="nav-item"><a class="nav-link active" href="#">Projects</a></li>
         <li class="nav-item"><a class="nav-link" href="packages.html">Packages</a></li>
         <li class="nav-item"><a class="nav-link" href="reviews.html">Reviews</a></li>
@@ -129,47 +106,79 @@
   <!-- Projects Section -->
   <section class="container mb-5">
     <div class="row g-4">
+
       <!-- Project Card 1 -->
-      <div class="col-md-4 fade-in" style="animation-delay: 0.2s;">
+      <div class="col-6 col-md-4 fade-in" style="animation-delay: 0.2s;">
         <div class="card project-card h-100 shadow-sm border-0">
           <img src="project1.jpg" alt="Project 1" />
           <div class="card-body">
             <h5 class="card-title">E-commerce Website</h5>
-            <p class="card-text text-muted">
-              Developed a fully responsive and user-friendly online store with payment integration.
-            </p>
+            <p class="card-text text-muted">Developed a fully responsive and user-friendly online store with payment integration.</p>
             <a href="https://libass276.github.io/1st-project/shop.html" class="btn btn-outline-light btn-sm">View Details</a>
           </div>
         </div>
       </div>
 
       <!-- Project Card 2 -->
-      <div class="col-md-4 fade-in" style="animation-delay: 0.4s;">
+      <div class="col-6 col-md-4 fade-in" style="animation-delay: 0.4s;">
         <div class="card project-card h-100 shadow-sm border-0">
           <img src="project2.jpg" alt="Project 2" />
           <div class="card-body">
-            <h5 class="card-title">Advertisement  Website</h5>
-            <p class="card-text text-muted">
-              Crafted a modern and sleek website for an oil company.
-            </p>
+            <h5 class="card-title">Advertisement Website</h5>
+            <p class="card-text text-muted">Crafted a modern and sleek website for an oil company.</p>
             <a href="https://libass276.github.io/Amser-oil/" class="btn btn-outline-light btn-sm">View Details</a>
           </div>
         </div>
       </div>
 
       <!-- Project Card 3 -->
-      <div class="col-md-4 fade-in" style="animation-delay: 0.6s;">
+      <div class="col-6 col-md-4 fade-in" style="animation-delay: 0.6s;">
         <div class="card project-card h-100 shadow-sm border-0">
           <img src="project3.jpg" alt="Project 3" />
           <div class="card-body">
             <h5 class="card-title">Portfolio Website</h5>
-            <p class="card-text text-muted">
-              Designed and developed a sleek car rental website.
-            </p>
+            <p class="card-text text-muted">Designed and developed a sleek car rental website.</p>
             <a href="https://libass276.github.io/KT-s-Rentals./" class="btn btn-outline-light btn-sm">View Details</a>
           </div>
         </div>
       </div>
+
+      <!-- Project Card 4 -->
+      <div class="col-6 col-md-4 fade-in" style="animation-delay: 0.8s;">
+        <div class="card project-card h-100 shadow-sm border-0">
+          <img src="project4.jpg" alt="Project 4" />
+          <div class="card-body">
+            <h5 class="card-title">School Website</h5>
+            <p class="card-text text-muted">Built a complete school website with a clean layout and responsive design.</p>
+            <a href="#" class="btn btn-outline-light btn-sm">View Details</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project Card 5 -->
+      <div class="col-6 col-md-4 fade-in" style="animation-delay: 1s;">
+        <div class="card project-card h-100 shadow-sm border-0">
+          <img src="project5.jpg" alt="Project 5" />
+          <div class="card-body">
+            <h5 class="card-title">Blog Website</h5>
+            <p class="card-text text-muted">Developed a luxury-themed affiliate blog with product reviews and categories.</p>
+            <a href="#" class="btn btn-outline-light btn-sm">View Details</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project Card 6 -->
+      <div class="col-6 col-md-4 fade-in" style="animation-delay: 1.2s;">
+        <div class="card project-card h-100 shadow-sm border-0">
+          <img src="project6.jpg" alt="Project 6" />
+          <div class="card-body">
+            <h5 class="card-title">Business Website</h5>
+            <p class="card-text text-muted">Created a clean and professional business website for branding and services.</p>
+            <a href="#" class="btn btn-outline-light btn-sm">View Details</a>
+          </div>
+        </div>
+      </div>
+
     </div>
   </section>
 
