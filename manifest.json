@@ -1,0 +1,21 @@
+{
+  "name": "LibWeb Solutions",
+  "short_name": "LibWeb",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#2e2e2e",
+  "theme_color": "#007bff",
+  "description": "LibWeb Solutions - Professional web development services",
+  "icons": [
+    {
+      "src": "icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
